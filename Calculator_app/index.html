@@ -20,9 +20,9 @@
             <input type="text" name="text" id="input" placeholder="0">
         </div>
         <div class="row">
-            <button class="btn" onclick="input_function(this)">8</button>
-            <button class="btn" onclick="input_function(this)">7</button>
-            <button class="btn" onclick="input_function(this)">9</button>
+            <button class="btn" onclick="input_function(this)">(</button>
+            <button class="btn" onclick="input_function(this)">)</button>
+            <button class="btn" onclick="input_function(this)">%</button>
             <button class="btn" onclick="input_function(this)">*</button>
         </div>
         <div class="row">
@@ -38,12 +38,20 @@
             <button class="btn" onclick="input_function(this)">+</button>
         </div>
         <div class="row">
+            <button class="btn" onclick="input_function(this)">8</button>
+            <button class="btn" onclick="input_function(this)">7</button>
+            <button class="btn" onclick="input_function(this)">9</button>
             <button class="btn" onclick="input_function(this)">0</button>
+        </div>
+        <div class="row">
+            
+            <button class="btn" id="clear" onclick="clearScreen()">AC</button>
+          
             <button class="btn" onclick="input_function(this)">.</button>
             <button class="btn" onclick="calculate()">=</button>
             <button class="btn" onclick="input_function(this)">/</button>
         </div>
-        <button class="btn" id="clear" onclick="clearScreen()">Clear</button>
+        
     </div>
 
     <script src="script.js"></script>
