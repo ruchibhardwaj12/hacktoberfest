@@ -23,6 +23,99 @@ h1 {
 h3 {
     font-size: 23px;
     color: #fff;
+    margin: 14px;
+}
+
+.container {
+    /* border: 4px solid forestgreen;  */
+    background-color: #f9ac66;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box black;
+   margin: auto;
+    width: 375px;
+    border-radius: 22px
+
+}
+
+.btn {
+
+    padding: 17px 22px;
+    /* border: 4px solid black; */
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 24px;
+    margin: 3px 5px;
+    height: 62px;
+    width: 62px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    transition: 0.7s;
+}
+
+.btn:hover {
+
+    color:white;
+    background-color: black;
+}
+
+#clear {
+    /* width: 315px;
+    border-radius: 3px;
+    padding: 16px;
+    /* color: red; */
+    /* margin: 5px 3px; */ 
+}
+
+.row {
+    margin: 8px 0;
+}
+
+.row input {
+   
+    border: 5px solid violet; 
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 340px;
+    border: none;
+    font-weight: 700;
+    text-align: right;
+}
+
+::placeholder {
+    font-size: 25px;
+    color: #000;
+}* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./geometry-gb8383e696_1920.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h1 {
+    margin: 35px 0 25px 0;
+    color: #fff;
+}
+
+h3 {
+    font-size: 23px;
+    color: #fff;
     margin: 12px;
 }
 
